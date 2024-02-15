@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         URL getUrl = getURLInput(); //Website Input with Window (Call method getURLInput())
-        System.out.println("Current Url: " + getUrl);  //Console Output current Website in Console
+        //System.out.println("Current Url: " + getUrl);  //Console Output current Website typed in
 
         if (getUrl != null) {  //getUrl should contain something to start crawling
             crawl(getUrl);  //Start crawling
